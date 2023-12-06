@@ -5,7 +5,8 @@ on:
   push:
     paths:
       - 'overlays/dev/kustomization.yaml'
-
+permissions: 
+    contents: write
 jobs:
   a:
     uses: KAFD-DMC/workflows/.github/workflows/deploy.yml@main
@@ -14,3 +15,4 @@ jobs:
       targetEnvironment: test
     secrets:
       GITOPS_PAT: ${{ secrets.GITOPS_PAT }}
+   
