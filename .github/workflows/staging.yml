@@ -8,7 +8,7 @@ on:
 
 jobs:
   a:
-    uses: kafd-demo/workflows/.github/workflows/deploy.yml@main
+    uses: KAFD-DMC/workflows/.github/workflows/deploy.yml@main
     with:
       sourceEnvironment: test
       targetEnvironment: staging
