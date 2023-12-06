@@ -5,7 +5,8 @@ on:
   push:
     paths:
       - 'overlays/staging/kustomization.yaml'
-
+permissions: 
+    contents: write
 jobs:
   a:
     uses: KAFD-DMC/workflows/.github/workflows/deploy.yml@main
