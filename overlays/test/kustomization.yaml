@@ -7,4 +7,4 @@ patchesStrategicMerge:
 namePrefix: test-
 images:
 - name: registry-quay-quay-enterprise.apps.mgt.scp.gcp1.kafd.sa/pipelines/backend-application
-  newTag: ef2746b
+  newTag: 2a281bc
