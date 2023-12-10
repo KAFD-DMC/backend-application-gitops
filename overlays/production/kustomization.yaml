@@ -4,4 +4,4 @@ resources:
 - ../../base
 images:
 - name: registry-quay-quay-enterprise.apps.mgt.scp.gcp1.kafd.sa/pipelines/backend-application
-  newTag: 2a281bc
+  newTag: b6f2484
